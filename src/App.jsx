@@ -8,7 +8,7 @@ import { Route, BrowserRouter as Router, Routes } from "react-router";
 function App() {
   return (
     <>
-      <Router>
+      <Router basename="/Day_37_react/">
         <Routes>
           <Route element={<DefaultLayout />}>
             <Route path="/" element={<Home />} />
